@@ -1,5 +1,5 @@
 {
-    const a = ;
+    const a = 1;
 
 }
 
