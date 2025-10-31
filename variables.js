@@ -13,6 +13,8 @@
 
 // sub();
 
+
+
 // const a = 1;
 // console.log(a);
 
@@ -20,11 +22,15 @@
 // a=10;
 // console.log(a);
 
+
+
 // console.log(c);
 
 // {
 //   let c = 19;
 // }
+
+
 
 // let a=5;
 
@@ -37,6 +43,8 @@
 
 // run();
 
+
+
 // var a;
 // var a=10;
 // var a=15;
@@ -44,3 +52,32 @@
 
 // console.log(a);
 
+
+// {
+//   var a=100; 
+//   var a=10;  
+// }
+
+// console.log(a);
+
+
+
+// function multiple() {
+//   let a=10;
+//   let b=2;
+//   console.log(a*b);
+// }
+
+// multiple();
+
+
+function divide(){
+  var a=8;
+  var b=2;
+  
+}
+
+console.log(a/b);
+
+
+divide();
