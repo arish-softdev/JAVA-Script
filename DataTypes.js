@@ -13,10 +13,16 @@
 // console.log(fname);
 
 // Boolean data type
-let isStudent = true;
+// let isStudent = true;
+// console.log(isStudent);
+                           
 
 // Null data type
-let nullValue = null;
+// let nullValue = null;
+// console.log(nullValue);
+
 
 // Undefined data type
 let undefinedValue;
+console.log(undefinedValue);
+
