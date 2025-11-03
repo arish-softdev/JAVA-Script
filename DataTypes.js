@@ -23,6 +23,6 @@
 
 
 // Undefined data type
-let undefinedValue;
-console.log(undefinedValue);
+// let undefinedValue;
+// console.log(undefinedValue);
 
