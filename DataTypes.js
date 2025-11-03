@@ -26,3 +26,10 @@
 // let undefinedValue;
 // console.log(undefinedValue);
 
+let isStudent = {
+
+}
+
+let isvalue = [tr]
+
+console.log( isvalue );
