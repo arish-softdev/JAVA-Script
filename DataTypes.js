@@ -26,10 +26,12 @@
 // let undefinedValue;
 // console.log(undefinedValue);
 
-let isStudent = {
+// let isStudent = {
 
-}
+// }
 
-let isvalue = [tr]
+// let isvalue = [tr]
 
-console.log( isvalue );
+// console.log( isvalue );
+
+let a = 1;
