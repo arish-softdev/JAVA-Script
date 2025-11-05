@@ -23,17 +23,17 @@
 
 
 // Undefined data type
-// let undefinedValue;
-// console.log(undefinedValue);
+let undefinedValue;
+console.log(undefinedValue);
 
-// let isStudent = {
+let isStudent = {
 
-// }
+}
 
 // let isvalue = [tr]
 
 // console.log( isvalue );
 
-let a = 1;
-console.log(a);
+// let a = 1;
+// console.log(a);
 
