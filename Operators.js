@@ -22,4 +22,12 @@
 // console.log(a === b);
 // console.log(a !== b);
 
-Logical Operators:
+// Logical Operators:
+
+const x = true;
+const y = false;
+
+console.log(x && y);
+console.log(x || y);
+console.log(!y);
+console.log(!x);
