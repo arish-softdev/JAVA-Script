@@ -1,6 +1,5 @@
 // Arithmetic Operators:
 
-
 // const a = 10;
 // const b = 7;
 
