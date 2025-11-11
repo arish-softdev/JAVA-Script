@@ -1,7 +1,8 @@
-let a = 1;
+// let a = 1;
 
-console.log(a);
+// console.log(a);
 
 {
 var b = 2
 }
+
