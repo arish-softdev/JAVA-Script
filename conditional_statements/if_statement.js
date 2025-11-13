@@ -1,5 +1,4 @@
  let age = 20;
-  
       if (age >= 28) {
         console.log("You are eligible to vote.");
       } else {
