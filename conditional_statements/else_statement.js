@@ -1,11 +1,12 @@
 let day = "Friday";
   
-      if (day === "Saturday" || day === "Sunday") {
+  if (day === "Saturday" || day === "Sunday") {
         console.log("It's the weekend!");
-      } else if (day === "Friday") {
+
+} else if (day === "Friday") {
         console.log("It's Friday! Almost the weekend.");
-      } else {
+} else {
         console.log("It's a weekday.");
-      }
+}
 
 // 
