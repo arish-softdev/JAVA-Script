@@ -10,3 +10,14 @@
 // }
 
 // 
+
+let fname = "Ruby";
+if (fname=="Aqua") {
+    console.log("Hi Aqua");
+}
+else if (fname=="Ruby") {
+    console.log("Hey Ruby");
+}
+else {
+    console.log("Unknown")
+}
