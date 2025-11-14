@@ -7,3 +7,5 @@ let day = "Friday";
       } else {
         console.log("It's a weekday.");
       }
+
+// 
