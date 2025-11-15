@@ -48,8 +48,19 @@
 
 // 
 
-let name = "Aquamarine";
-for (let i = 3; i < name.length; i++) {
-    console.log(name[i]);
+// let name = "Aquamarine";
+// for (let i = 3; i < name.length; i++) {
+//     console.log(name[i]);
+    
+// }
+
+// 
+
+let sum =0;
+let n=100;
+
+for (let i = 1; i <=n; i++) {
+    sum =sum+i;
+    console.log('sum:', sum);
     
 }
