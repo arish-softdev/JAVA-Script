@@ -39,6 +39,9 @@
 
 // 
 
-for (let index = 0; index < array.length; index++) {
-    
+for (let i = 2; i <=20; i++) {
+    if (i%2==0) {
+        console.log(i);
+        
+    }
 }
