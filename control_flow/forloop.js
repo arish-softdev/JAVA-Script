@@ -32,8 +32,10 @@
 
 // 
 
-
-for (let i = 0; i <=5; i++) {
-    console.log("aqua");
+// for (let i = 0; i <=5; i++) {
+//     console.log("aqua");
     
-}
+// }
+
+// 
+
