@@ -4,10 +4,18 @@
 //     i++
 //  }
 
-// ex2
+// Ex2 Print even numbers from 2 to 20
 
-let i = 2;
-while (i <= 20) {
+// let i = 2;
+// while (i <= 20) {
+//     console.log(i);
+//     i+=2;
+// }
+
+// Ex3 Print numbers from 10 to 1
+
+let i = 10;
+while (i >=1) {
     console.log(i);
-    i+=2;
+    i--;
 }
