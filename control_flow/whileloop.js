@@ -14,8 +14,16 @@
 
 // Ex3 Print numbers from 10 to 1
 
-let i = 10;
-while (i >=1) {
+// let i = 10;
+// while (i >=1) {
+//     console.log(i);
+//     i--;
+// }
+
+// Ex4 Print multiples of 5 up to 50
+
+let i = 5;
+while (i <=50) {
     console.log(i);
-    i--;
+    i+=5;
 }
