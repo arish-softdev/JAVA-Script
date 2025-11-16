@@ -22,8 +22,19 @@
 
 // Ex4 Print multiples of 5 up to 50
 
-let i = 5;
-while (i <=50) {
-    console.log(i);
-    i+=5;
+// let i = 5;
+// while (i <=50) {
+//     console.log(i);
+//     i+=5;
+// }
+
+// Ex5 Ask for password until correct
+
+let password ="4747";
+let correctPassword = "4747";
+
+while (password !== correctPassword) {
+    password = prompt("Enter password:");
 }
+
+console.log("Access Granted!");
