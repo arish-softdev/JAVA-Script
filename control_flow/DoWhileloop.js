@@ -18,9 +18,18 @@
 
 // Ex3 Print multuples of 3 up to 30
 
-let q = 3;
+// let q = 3;
+
+// do {
+//     console.log(q);
+//     q += 3;
+// } while (q <= 30);
+
+// Ex4 print 10 to 1
+
+let i = 10;
 
 do {
-    console.log(q);
-    q += 3;
-} while (q <= 30);
+    console.log(i);
+    i--;
+} while (i >= 1);
