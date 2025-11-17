@@ -39,7 +39,7 @@
 
 // console.log("Access Granted!");
 
-// Ex6
+// Ex6 Factorial
 
 let n = 5;
 let fact = 1;
