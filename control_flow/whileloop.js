@@ -30,11 +30,24 @@
 
 // Ex5 Ask for password until correct
 
-let password ="4747";
-let correctPassword = "4747";
+// let password ="4747";
+// let correctPassword = "4747";
 
-while (password !== correctPassword) {
-    password = prompt("Enter password:");
+// while (password !== correctPassword) {
+//     password = prompt("Enter password:");
+// }
+
+// console.log("Access Granted!");
+
+// Ex6
+
+let n = 5;
+let fact = 1;
+let i = 1;
+
+while (i <= n) {
+    fact *= i;
+    i++;
 }
 
-console.log("Access Granted!");
+console.log("Factorial:", fact);
