@@ -1,5 +1,4 @@
 // For...In Loop in javascript
-// EX1 Print all properties of an object
 
 // const person = {
 //     name: "Cid",
@@ -12,15 +11,28 @@
     
 // }
 
-// EX2 Print all values of an object
+// EX1 Print all properties of an object
 
-let car = {
-    brand: "BMW",
-    model: "M4",
-    year: 2022
+let person = {
+    name: "Aqua",
+    age: 20,
+    city: "Chennai"
 };
 
-for (let key in car) {
-    console.log(car[key]);
+for (let key in person) {
+    console.log(key);
     
 }
+
+// EX2 Print all values of an object
+
+// let car = {
+//     brand: "BMW",
+//     model: "M4",
+//     year: 2022
+// };
+
+// for (let key in car) {
+//     console.log(car[key]);
+    
+// }
