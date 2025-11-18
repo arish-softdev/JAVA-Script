@@ -13,16 +13,16 @@
 
 // EX1 Print all properties of an object
 
-let person = {
-    name: "Aqua",
-    age: 20,
-    city: "Chennai"
-};
+// let person = {
+//     name: "Aqua",
+//     age: 20,
+//     city: "Chennai"
+// };
 
-for (let key in person) {
-    console.log(key);
+// for (let key in person) {
+//     console.log(key);
     
-}
+// }
 
 // EX2 Print all values of an object
 
@@ -36,3 +36,16 @@ for (let key in person) {
 //     console.log(car[key]);
     
 // }
+
+// EX3 Print Keys and values together
+
+let student = {
+    name: "Ayanokoji",
+    grade: "A",
+    marks: 92
+};
+
+for (let key in student) {
+    console.log(key + ":" + student[key]);
+    
+}
