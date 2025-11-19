@@ -11,6 +11,7 @@
     
 // }
 
+
 // EX1 Print all properties of an object
 
 // let person = {
