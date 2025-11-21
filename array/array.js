@@ -30,8 +30,16 @@
 
 // Ex6 add element
 
-let colors = ["red", "green", "black", "blue"];
-colors.push("pink");
+// let colors = ["red", "green", "black", "blue"];
+// colors.push("pink");
 
-console.log(colors);
+// console.log(colors);
+
+// Ex7 Remove element
+
+let nums = [19, 20, 30, 40];
+nums.shift();
+
+console.log(nums);
+
 
