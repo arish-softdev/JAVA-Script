@@ -14,3 +14,10 @@ console.log(oshinoko[2]);
 let info = [name='robin', age=19, city='vadalur'];
 
 console.log(info);
+
+// Ex4 change array value
+
+let fruits = ["apple", "orange", "banana"];
+fruits[2] = "grapes";
+
+console.log(fruits);
