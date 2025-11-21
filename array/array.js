@@ -24,6 +24,14 @@
 
 // Ex5 Find length of array
 
-let colors = ["red", "green", "black", "blue"];
+// let colors = ["red", "green", "black", "blue"];
 
-console.log(colors.length);
+// console.log(colors.length);
+
+// Ex6 add element
+
+let colors = ["red", "green", "black", "blue"];
+colors.push("pink");
+
+console.log(colors);
+
