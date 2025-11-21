@@ -36,10 +36,16 @@
 // console.log(colors);
 
 // Ex7 Remove element
+// Remove first element
 
-let nums = [19, 20, 30, 40];
-nums.shift();
+// let nums = [10, 20, 30, 40];
+// nums.shift();
+
+// console.log(nums);
+
+// Remove last elemenet
+
+let nums = [10, 20, 30, 40];
+nums.pop();
 
 console.log(nums);
-
-
