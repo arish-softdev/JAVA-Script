@@ -45,7 +45,14 @@
 
 // Remove last elemenet
 
-let nums = [10, 20, 30, 40];
-nums.pop();
+// let nums = [10, 20, 30, 40];
+// nums.pop();
 
-console.log(nums);
+// console.log(nums);
+
+// Ex8 Check if element exists
+
+let pets = ["dog", "cat", "parrot"];
+
+console.log(pets.includes("cat"));
+
