@@ -35,24 +35,25 @@
 
 // console.log(colors);
 
-// Ex7 Remove element
-// Remove first element
+// Ex7 Remove first element
 
 // let nums = [10, 20, 30, 40];
 // nums.shift();
 
 // console.log(nums);
 
-// Remove last elemenet
+// Ex8 Remove last elemenet
 
 // let nums = [10, 20, 30, 40];
 // nums.pop();
 
 // console.log(nums);
 
-// Ex8 Check if element exists
+// Ex9 Check if element exists
 
-let pets = ["dog", "cat", "parrot"];
+// let pets = ["dog", "cat", "parrot"];
 
-console.log(pets.includes("cat"));
+// console.log(pets.includes("cat"));
+
+// Ex10 Add ele
 
