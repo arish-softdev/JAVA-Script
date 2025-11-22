@@ -24,14 +24,28 @@
 
 // Ex3
 
-const person = {
-    name: "Robin",
-    age: 22,
-    profession: "Hunter"
+// const person = {
+//     name: "Robin",
+//     age: 22,
+//     profession: "Hunter"
+// };
+
+// const propertyName = "age";
+// console.log(person[propertyName]);
+
+// const prifessionKey = "profession";
+// console.log(person.professionKey);
+
+// Ex4
+
+let person = {
+    name: "Arish",
+    age: 19,
+    profession: "Developer"
 };
 
-const propertyName = "age";
-console.log(person[propertyName]);
+person.age = 22;
+console.log(person.age);
 
-const prifessionKey = "profession";
-console.log(person.professionKey);
+person["profession"] = "Designer";
+console.log(person.profession)
