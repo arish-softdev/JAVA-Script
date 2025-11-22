@@ -55,5 +55,11 @@
 
 // console.log(pets.includes("cat"));
 
-// Ex10 Add ele
+// Ex10 Add element to the beginning
+
+let colors = ["red", "black", "blue"];
+colors.unshift("gold");
+
+console.log(colors);
+
 
