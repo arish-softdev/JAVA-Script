@@ -1,4 +1,5 @@
 // Object in Javascript
+
 // Ex1
 
 // const person = {
