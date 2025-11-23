@@ -24,11 +24,22 @@
 
 // largest of two numbers
 
-let a = 10; b = 20;
+// let a = 10; b = 20;
 
-if (a > b) {
-    console.log("a is larger");
+// if (a > b) {
+//     console.log("a is larger");
+    
+// } else {
+//     console.log("b is larger");
+// }
+
+//  check mumber between 10 and 50
+
+let num = 35;
+
+if (num >= 10 && num <= 50) {
+    console.log("In range");
     
 } else {
-    console.log("b is larger");
+    console.log("Out of range");
 }
