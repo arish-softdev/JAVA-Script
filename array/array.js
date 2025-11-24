@@ -88,7 +88,16 @@
 
 // Ex15 Count odd numbers
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
-let count = arr.filter(num => num % 2 !== 0).length;
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let count = arr.filter(num => num % 2 !== 0).length;
 
-console.log(count);
+// console.log(count);
+
+// Ex16 Merge two arrays
+
+let x = [1, 2];
+let b = [3, 4];
+
+let merged = [...a, ...b];
+
+console.log(merged);
