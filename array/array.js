@@ -74,7 +74,14 @@
 
 // Ex13 Sum of all values
 
-let arr = [1, 2, 3, 4];
-let sum = arr.reduce((a, b) => a + b, 0);
+// let arr = [1, 2, 3, 4];
+// let sum = arr.reduce((a, b) => a + b, 0);
 
-console.log(sum);
+// console.log(sum);
+
+// Ex14 Count even numbers
+
+let arr = [1, 2, 3, 4, 5, 6];
+let count = arr.filter(num => num % 2 === 0).length;
+
+console.log(count);
