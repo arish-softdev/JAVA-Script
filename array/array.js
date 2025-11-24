@@ -57,9 +57,12 @@
 
 // Ex10 Add element to the beginning
 
-let colors = ["red", "black", "blue"];
-colors.unshift("gold");
+// let colors = ["red", "black", "blue"];
+// colors.unshift("gold");
 
-console.log(colors);
+// console.log(colors);
 
+// Ex11 Largest number
 
+let arr = [10, 50, 20, 40];
+console.log(Math.max(...arr));
