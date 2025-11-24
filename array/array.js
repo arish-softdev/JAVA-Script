@@ -69,5 +69,12 @@
 
 // Ex12 Smallest number
 
-let arr = [10, 50, 20, 40];
-console.log(Math.min(...arr));
+// let arr = [10, 50, 20, 40];
+// console.log(Math.min(...arr));
+
+// Ex13 Sum of all values
+
+let arr = [1, 2, 3, 4];
+let sum = arr.reduce((a, b) => a + b, 0);
+
+console.log(sum);
