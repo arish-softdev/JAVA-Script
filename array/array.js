@@ -64,5 +64,10 @@
 
 // Ex11 Largest number
 
+// let arr = [10, 50, 20, 40];
+// console.log(Math.max(...arr));
+
+// Ex12 Smallest number
+
 let arr = [10, 50, 20, 40];
-console.log(Math.max(...arr));
+console.log(Math.min(...arr));
