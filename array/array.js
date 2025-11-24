@@ -81,7 +81,14 @@
 
 // Ex14 Count even numbers
 
-let arr = [1, 2, 3, 4, 5, 6];
-let count = arr.filter(num => num % 2 === 0).length;
+// let arr = [1, 2, 3, 4, 5, 6];
+// let count = arr.filter(num => num % 2 === 0).length;
+
+// console.log(count);
+
+// Ex15 Count odd numbers
+
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let count = arr.filter(num => num % 2 !== 0).length;
 
 console.log(count);
