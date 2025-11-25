@@ -6,6 +6,10 @@
 
 // Ex2 
 
-let arr = [5, 10, 15];
-arr.shift();  
+// let arr = [5, 10, 15];
+// arr.shift();  
 
+// Ex3 
+
+let fruits = ["apple", "banana", "mango"];
+console.log(fruits.join(",")); 
