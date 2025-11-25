@@ -95,9 +95,15 @@
 
 // Ex16 Merge two arrays
 
-let x = [1, 2];
-let b = [3, 4];
+// let x = [1, 2];
+// let b = [3, 4];
 
-let merged = [...a, ...b];
+// let merged = [...a, ...b];
 
-console.log(merged);
+// console.log(merged);
+
+// Ex17 
+
+let arr = [1, 2, 3];
+arr.push(4);
+console.log(arr); 
