@@ -23,7 +23,14 @@
 
 // Ex5
 
-let arr = [10, 20, 30];
-arr.splice(1, 1); // Remove 1 item at index 1
+// let arr = [10, 20, 30];
+// arr.splice(1, 1); // Remove 1 item at index 1
 
-console.log(arr);
+// console.log(arr);
+
+// Ex6
+
+let arr = [10, 55, 60, 22];
+let ans = arr.find(n => n > 50);
+
+console.log(ans);
