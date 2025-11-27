@@ -24,6 +24,6 @@
 // Ex5
 
 let arr = [10, 20, 30];
-arr.splice(1, 1);
+arr.splice(1, 1); // Remove 1 item at index 1
 
 console.log(arr);
