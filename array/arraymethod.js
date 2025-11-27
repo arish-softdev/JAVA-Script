@@ -16,8 +16,14 @@
 
 // Ex4
 
-let arr = [1, 2, 3, 4, 5, 6];
-let evens = arr.filter(n => n % 2 === 0);
+// let arr = [1, 2, 3, 4, 5, 6];
+// let evens = arr.filter(n => n % 2 === 0);
 
-console.log(evens);
+// console.log(evens);
 
+// Ex5
+
+let arr = [10, 20, 30];
+arr.splice(1, 1);
+
+console.log(arr);
