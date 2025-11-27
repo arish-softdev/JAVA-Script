@@ -41,3 +41,9 @@ let arr = [7, 1, 8, 2, 4];
 arr.sort((a, b) => b - a);
 
 console.log(arr);
+
+// Ex8
+
+let a = ["b", "a", "c"];
+
+console.log(a.sort());
