@@ -30,7 +30,14 @@
 
 // Ex6
 
-let arr = [10, 55, 60, 22];
-let ans = arr.find(n => n > 50);
+// let arr = [10, 55, 60, 22];
+// let ans = arr.find(n => n > 50);
 
-console.log(ans);
+// console.log(ans);
+
+// Ex7
+
+let arr = [7, 1, 8, 2, 4];
+arr.sort((a, b) => b - a);
+
+console.log(arr);
