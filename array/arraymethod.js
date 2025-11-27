@@ -11,5 +11,13 @@
 
 // Ex3 
 
-let fruits = ["apple", "banana", "mango"];
-console.log(fruits.join(",")); 
+// let fruits = ["apple", "banana", "mango"];
+// console.log(fruits.join(",")); 
+
+// Ex4
+
+let arr = [1, 2, 3, 4, 5, 6];
+let evens = arr.filter(n => n % 2 === 0);
+
+console.log(evens);
+
