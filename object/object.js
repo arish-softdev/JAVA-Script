@@ -53,3 +53,7 @@
 
 // Ex5
 
+let user = { name: "Arish", age: 19};
+user.country = "India";
+
+console.log(user);
