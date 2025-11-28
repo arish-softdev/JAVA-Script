@@ -39,14 +39,17 @@
 
 // Ex4
 
-let person = {
-    name: "Arish",
-    age: 19,
-    profession: "Developer"
-};
+// let person = {
+//     name: "Arish",
+//     age: 19,
+//     profession: "Developer"
+// };
 
-person.age = 22;
-console.log(person.age);
+// person.age = 22;
+// console.log(person.age);
 
-person["profession"] = "Designer";
-console.log(person.profession)
+// person["profession"] = "Designer";
+// console.log(person.profession)
+
+// Ex5
+
