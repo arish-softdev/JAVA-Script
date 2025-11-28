@@ -53,7 +53,14 @@
 
 // Ex5
 
-let user = { name: "Arish", age: 19};
-user.country = "India";
+// let user = { name: "Arish", age: 19};
+// user.country = "India";
 
-console.log(user);
+// console.log(user);
+
+// Ex6
+
+let car = { brand: "BMW", model: "X5", year: 2019};
+delete car.year;
+
+console.log(car);
