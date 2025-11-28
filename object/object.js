@@ -60,7 +60,13 @@
 
 // Ex6
 
-let car = { brand: "BMW", model: "X5", year: 2019};
-delete car.year;
+// let car = { brand: "BMW", model: "X5", year: 2019};
+// delete car.year;
 
-console.log(car);
+// console.log(car);
+
+// Ex7
+
+let laptop = { brand: "acer", ram: "16GB" };
+console.log("ram" in laptop);
+console.log("processor" in laptop);
