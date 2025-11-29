@@ -11,7 +11,17 @@
 
 // Function Expression:
 
-const greet = function(name) {
+// const greet = function(name) {
+//     console.log("Hi," + name + "!");
+    
+// }
+
+// greet("Soldiers");
+// greet("Bro");
+
+// Arrow function:
+
+const greet = (name) => {
     console.log("Hi," + name + "!");
     
 }
