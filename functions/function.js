@@ -31,9 +31,19 @@
 
 // Function with Return Value:
 
-function addNumbers(a, b) {
-    return a + b;
+// function addNumbers(a, b) {
+//     return a + b;
+// }
+
+// const result = addNumbers(5, 5);
+// console.log(result);
+
+// Function with Default Parameters:
+
+function greet(name = "guest") {
+    console.log("Hi," + name + "!");
+    
 }
 
-const result = addNumbers(5, 5);
-console.log(result);
+greet();
+greet("Master");
