@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <title>DOM Manipulation</title>
 </head>
 <body>
     <h1 id="myhead">Media</h1>
@@ -11,16 +11,28 @@
     <p class="myPara">Time is Gold</p>
     <p class="myPara">Time is Gold</p>
     <p class="myPara">Time is Gold</p>
+    
+    <li>Old Box1</li>
+    <li>Old Box2</li>
+    <li>Old Box3</li>
 
 
     <script>
-        const heading = document.getElementById("myhead"); // Accesing Elements by ID
+         // Accesing Elements by ID
+        const heading = document.getElementById("myhead");
         heading.textContent = "Social Media";
-        // 
+        
+         // Accesing Elements by Class
         let paragraphs = document.getElementsByClassName("my Para");
         for (let i = 0; i < paragraphs.length; i++) {
             paragraphs[i].textContent = "Time is Money" + (i + 1);
         } 
+
+         // Accesing Elements by Tag Name
+         let listBox = document.getElementsByTagName("li");
+         for (let i = 0; i < listBox.length; i++) {
+            listBox[i].textContent = "New Box" + (i + 1);
+         }
     </script>
 </body>
 </html>
