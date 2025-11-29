@@ -8,9 +8,19 @@
 <body>
     <h1 id="myhead">Media</h1>
 
+    <p class="myPara">Time is Gold</p>
+    <p class="myPara">Time is Gold</p>
+    <p class="myPara">Time is Gold</p>
+
+
     <script>
-        const heading = document.getElementById("myhead");
+        const heading = document.getElementById("myhead"); // Accesing Elements by ID
         heading.textContent = "Social Media";
+        // 
+        let paragraphs = document.getElementsByClassName("my Para");
+        for (let i = 0; i < paragraphs.length; i++) {
+            paragraphs[i].textContent = "Time is Money" + (i + 1);
+        } 
     </script>
 </body>
 </html>
