@@ -40,10 +40,23 @@
 
 // Function with Default Parameters:
 
-function greet(name = "guest") {
-    console.log("Hi," + name + "!");
+// function greet(name = "guest") {
+//     console.log("Hi," + name + "!");
     
+// }
+
+// greet();
+// greet("Master");
+
+// Function with Rest Parameters:
+
+function sum(...numbers) {
+    let total = 0;
+    for (let number of numbers) {
+        total += number;
+    }
+    return total;
 }
 
-greet();
-greet("Master");
+const result = sum(1, 2, 3, 4, 5);
+console.log(result);
