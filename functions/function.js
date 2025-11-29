@@ -21,10 +21,19 @@
 
 // Arrow function:
 
-const greet = (name) => {
-    console.log("Hi," + name + "!");
+// const greet = (name) => {
+//     console.log("Hi," + name + "!");
     
+// }
+
+// greet("Soldiers");
+// greet("Bro");
+
+// Function with Return Value:
+
+function addNumbers(a, b) {
+    return a + b;
 }
 
-greet("Soldiers");
-greet("Bro");
+const result = addNumbers(5, 5);
+console.log(result);
