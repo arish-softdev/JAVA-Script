@@ -1,7 +1,17 @@
 // Functions in js
-// Function Declaration
+// Function Declaration:
 
-function greet(name) {
+// function greet(name) {
+//     console.log("Hi," + name + "!");
+    
+// }
+
+// greet("Soldiers");
+// greet("Bro");
+
+// Function Expression:
+
+const greet = function(name) {
     console.log("Hi," + name + "!");
     
 }
