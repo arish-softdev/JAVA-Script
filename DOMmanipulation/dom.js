@@ -15,3 +15,8 @@ let listBox = document.getElementsByTagName("li");
 for (let i = 0; i < listBox.length; i++) {
   listBox[i].textContent = "New Box" + (i + 1);
 }
+
+// Modifying Element Styles
+let myElement = document.getElementById("myElement");
+myElement.style.backgroundColor = "red";
+myElement.style.color = "white";
