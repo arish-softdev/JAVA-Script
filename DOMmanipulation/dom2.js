@@ -6,7 +6,8 @@ document.getElementById("msg").textContent = "Welcome!";
 
 let myElement = document.getElementById("box")
 myElement.style.backgroundColor = "gold";
-myElement.style.color = "lightred";
+myElement.style.color = "#2c3e50";
+myElement.style.fontSize = "20px";
 myElement.style.padding = "10px";
 myElement.style.margin = "10px";
 myElement.style.width = "100px";
