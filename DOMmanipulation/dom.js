@@ -32,3 +32,5 @@ newParagraph.textContent = "This is a new paragraph.";
 document.body.appendChild(newParagraph);
 
 // Removing Elements
+let elementToRemove = document.getElementById("elementToRemove");
+elementToRemove.remove();
