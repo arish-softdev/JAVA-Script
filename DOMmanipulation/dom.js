@@ -20,6 +20,11 @@ for (let i = 0; i < listBox.length; i++) {
 let myElement = document.getElementById("myElement");
 myElement.style.backgroundColor = "red";
 myElement.style.color = "white";
+myElement.style.padding = "10px";
+myElement.style.margin = "10px";
+myElement.style.width = "100px";
+myElement.style.borderRadius = "10px";
+myElement.style.textAlign = "center";
 
 // Creating New Elements
 let newParagraph = document.createElement("p");
