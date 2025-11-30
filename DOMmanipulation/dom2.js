@@ -15,6 +15,3 @@ myElement.style.height = "100px";
 myElement.style.textAlign = "center";
 myElement.style.borderRadius = "5px";
 myElement.style.boxShadow = " rgba(0, 0, 0, 0.24) 0px 3px 8px";
-
-
-// 
