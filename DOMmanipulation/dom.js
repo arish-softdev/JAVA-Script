@@ -20,3 +20,8 @@ for (let i = 0; i < listBox.length; i++) {
 let myElement = document.getElementById("myElement");
 myElement.style.backgroundColor = "red";
 myElement.style.color = "white";
+
+// Creating New Elements
+let newParagraph = document.createElement("p");
+newParagraph.textContent = "This is a new paragraph.";
+document.body.appendChild(newParagraph);
