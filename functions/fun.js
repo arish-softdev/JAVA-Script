@@ -37,4 +37,9 @@
 
 // Ex5 Takes a name and prints a greeting
 
-function
+function greet(name) {
+    return "Hello, " + name + "!";
+
+}
+
+console.log(greet("Arish"));
