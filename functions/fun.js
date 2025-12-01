@@ -9,11 +9,20 @@
 
 // Ex2 Check if a number is even or odd
 
-function checkEvenOdd (num) {
-    if (num % 2 === 0) {
-        return "Even";
-    }
-    return "Odd";
+// function checkEvenOdd (num) {
+//     if (num % 2 === 0) {
+//         return "Even";
+//     }
+//     return "Odd";
+// }
+
+// console.log(checkEvenOdd(7));
+
+// Ex3 Find a square of a number
+
+function square(n) {
+    return n * n;
+
 }
 
-console.log(checkEvenOdd(7));
+console.log(square(6));
