@@ -9,14 +9,14 @@
 
 // Ex2 Check if a number is even or odd
 
-function checkEvenOdd (num) {
-    if (num % 2 === 0) {
-        return "Even";
-    }
-    return "Odd";
-}
+// function checkEvenOdd (num) {
+//     if (num % 2 === 0) {
+//         return "Even";
+//     }
+//     return "Odd";
+// }
 
-console.log(checkEvenOdd(7));
+// console.log(checkEvenOdd(7));
 
 // Ex3 Find a square of a number
 
@@ -26,3 +26,11 @@ console.log(checkEvenOdd(7));
 // }
 
 // console.log(square(6));
+
+// Ex4 Returns the largest of two numbers
+
+function largest (a, b) {
+    return a > b ? a : b;
+}
+
+console.log(largest(10, 20));
