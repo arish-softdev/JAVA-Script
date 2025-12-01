@@ -37,9 +37,24 @@
 
 // Ex5 Takes a name and prints a greeting
 
-function greet(name) {
-    return "Hello, " + name + "!";
+// function greet(name) {
+//     return "Hello, " + name + "!";
 
+// }
+
+// console.log(greet("Arish"));
+
+// Ex6 Calculate the factorial of a number
+
+function factorial(n) {
+    let fact = 1;
+
+    for (let i = 1; i <= n; i++) {
+       fact *= i; 
+    }
+
+    return fact;
 }
 
-console.log(greet("Arish"));
+console.log(factorial(5));
+
