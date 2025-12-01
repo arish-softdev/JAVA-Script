@@ -46,15 +46,23 @@
 
 // Ex6 Calculate the factorial of a number
 
-function factorial(n) {
-    let fact = 1;
+// function factorial(n) {
+//     let fact = 1;
 
-    for (let i = 1; i <= n; i++) {
-       fact *= i; 
-    }
+//     for (let i = 1; i <= n; i++) {
+//        fact *= i; 
+//     }
 
-    return fact;
+//     return fact;
+// }
+
+// console.log(factorial(5));
+
+// Ex7 Reverse a string
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+
 }
 
-console.log(factorial(5));
-
+console.log(reverseString("hello"));
