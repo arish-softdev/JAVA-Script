@@ -67,4 +67,13 @@
 
 // console.log(reverseString("hello"));
 
-// Ex8 
+// Ex8 To check if a number is positive or nagative or zero
+
+function checkNo(n) {
+    if (n > 0) return "Positive";
+    else if (n < 0) return "Negative";
+    else return "Zero";
+}
+
+
+console.log(checkNo(-5));
