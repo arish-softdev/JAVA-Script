@@ -29,8 +29,12 @@
 
 // Ex4 Returns the largest of two numbers
 
-function largest (a, b) {
-    return a > b ? a : b;
-}
+// function largest (a, b) {
+//     return a > b ? a : b;
+// }
 
-console.log(largest(10, 20));
+// console.log(largest(10, 20));
+
+// Ex5 Takes a name and prints a greeting
+
+function
