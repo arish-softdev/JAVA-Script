@@ -37,10 +37,25 @@
 
 // Block Scope
 
-{
-    let message = "Nobody";
-    console.log(message);
+// {
+//     let message = "Nobody";
+//     console.log(message);
     
+// }
+
+// console.log(message);
+
+// Lexical Scope
+
+function outerFunction() {
+    let message = "Ara Ara, ";
+
+    function innerFunction() {
+        console.log(message + "Sayonara!");
+        
+    }
+
+    innerFunction();
 }
 
-console.log(message);
+outerFunction();
