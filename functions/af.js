@@ -10,3 +10,5 @@
 let greet = name => "Hi " + name;
 
 console.log(greet("Soldiers"));
+
+// Ex3
