@@ -7,8 +7,12 @@
 
 // Ex2 
 
-let greet = name => "Hi " + name;
+// let greet = name => "Hi " + name;
 
-console.log(greet("Soldiers"));
+// console.log(greet("Soldiers"));
 
 // Ex3
+
+const square = n => n * n;
+
+console.log(square(6));
