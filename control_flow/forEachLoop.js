@@ -18,11 +18,20 @@
 
 // Ex3
 
-let arr = [10, 20, 30];
-let sum = 0;
+// let arr = [10, 20, 30];
+// let sum = 0;
 
-arr.forEach(num => {
-    sum += num;
+// arr.forEach(num => {
+//     sum += num;
+// })
+
+// console.log(sum);
+
+// Ex4
+
+let nums = [2, 4, 6];
+let doubled = [];
+
+nums.forEach(n => {
+    doubled.puch(n * 2);
 })
-
-console.log(sum);
