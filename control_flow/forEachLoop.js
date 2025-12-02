@@ -29,9 +29,20 @@
 
 // Ex4
 
-let nums = [2, 4, 6];
-let doubled = [];
+// let nums = [2, 4, 6];
+// let doubled = [];
 
-nums.forEach(n => {
-    doubled.puch(n * 2);
+// nums.forEach(n => {
+//     doubled.puch(n * 2);
+// })
+
+// Ex5
+
+let numbers = [1, 2, 3, 4, 5, 6];
+
+numbers.forEach(n => {
+    if (n % 2 === 0) {
+        console.log(n);
+        
+    }
 })
