@@ -24,13 +24,23 @@
 
 // Function Scope 
 
-function display() {
-    if (true) {
-        let message = "Way back home";
-        console.log(message);
+// function display() {
+//     if (true) {
+//         let message = "Way back home";
+//         console.log(message);
         
-    }
+//     }
+// }
+
+// display();
+// console.log(message);
+
+// Block Scope
+
+{
+    let message = "Nobody";
+    console.log(message);
+    
 }
 
-display();
 console.log(message);
