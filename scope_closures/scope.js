@@ -12,12 +12,25 @@
 
 // Local Scope
 
-function showMessage() {
+// function showMessage() {
 
-    let message = "The Death March"
-    console.log(message);
+//     let message = "The Death March"
+//     console.log(message);
     
+// }
+
+// showMessage();
+// console.log(message);
+
+// Function Scope 
+
+function display() {
+    if (true) {
+        let message = "Way back home";
+        console.log(message);
+        
+    }
 }
 
-showMessage();
+display();
 console.log(message);
