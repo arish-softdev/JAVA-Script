@@ -50,8 +50,16 @@
 
 // Ex9
 
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-let doubled = nums.map(n => n * 2);
+// let doubled = nums.map(n => n * 2);
 
-console.log(doubled);
+// console.log(doubled);
+
+// Ex10
+
+let nums = [1, 2, 3, 4, 5, 6];
+
+let evens = nums.filter(n => n % 2 === 0);
+
+console.log(evens);
