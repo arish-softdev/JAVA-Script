@@ -58,8 +58,16 @@
 
 // Ex10
 
-let nums = [1, 2, 3, 4, 5, 6];
+// let nums = [1, 2, 3, 4, 5, 6];
 
-let evens = nums.filter(n => n % 2 === 0);
+// let evens = nums.filter(n => n % 2 === 0);
 
-console.log(evens);
+// console.log(evens);
+
+// Ex11
+
+let nums = [10, 20, 30];
+
+let total = nums.reduce((acc, n) => acc + n, 0);
+
+console.log(total);
