@@ -82,8 +82,16 @@
 
 // Ex13
 
-let nums = [3, 5, -2 ,7];
+// let nums = [3, 5, -2 ,7];
 
-let hasNagative = nums.some(n => n < 0);
+// let hasNagative = nums.some(n => n < 0);
 
-console.log(hasNagative);
+// console.log(hasNagative);
+
+// Ex14
+
+let nums = [5, 10, 15];
+
+let allPositive = nums.every(n => n > 0);
+
+console.log(allPositive);
