@@ -90,8 +90,8 @@
 
 // Ex14
 
-let nums = [5, 10, 15];
+// let nums = [5, 10, 15];
 
-let allPositive = nums.every(n => n > 0);
+// let allPositive = nums.every(n => n > 0);
 
-console.log(allPositive);
+// console.log(allPositive);
