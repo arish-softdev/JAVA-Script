@@ -37,13 +37,15 @@
 
 // Ex7
 
-let arr = [7, 1, 8, 2, 4];
-arr.sort((a, b) => b - a);
+// let arr = [7, 1, 8, 2, 4];
+// arr.sort((a, b) => b - a);
 
-console.log(arr);
+// console.log(arr);
 
 // Ex8
 
-let a = ["b", "a", "c"];
+// let a = ["b", "a", "c"];
 
-console.log(a.sort());
+// console.log(a.sort());
+
+// Ex9
