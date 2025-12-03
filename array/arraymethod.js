@@ -66,8 +66,16 @@
 
 // Ex11
 
-let nums = [10, 20, 30];
+// let nums = [10, 20, 30];
 
-let total = nums.reduce((acc, n) => acc + n, 0);
+// let total = nums.reduce((acc, n) => acc + n, 0);
 
-console.log(total);
+// console.log(total);
+
+// Ex12
+
+let nums = [10, 20, 60, 5, 70];
+
+let result = nums.find(n => n > 50);
+
+console.log(result);
