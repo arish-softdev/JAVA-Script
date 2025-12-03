@@ -38,14 +38,14 @@
 
 // Ex5
 
-let numbers = [1, 2, 3, 4, 5, 6];
+// let numbers = [1, 2, 3, 4, 5, 6];
 
-numbers.forEach(n => {
-    if (n % 2 === 0) {
-        console.log(n);
+// numbers.forEach(n => {
+//     if (n % 2 === 0) {
+//         console.log(n);
         
-    }
-})
+//     }
+// })
 
 // Ex6
 
