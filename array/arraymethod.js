@@ -98,6 +98,14 @@
 
 // Ex15
 
-let values = [1, 2, 3];
+// let values = [1, 2, 3];
 
-values.forEach(n => console.log(n * 10));
+// values.forEach(n => console.log(n * 10));
+
+// Ex16
+
+let name = ["Scarlet", "Aurora", "Marin", "Zero Two", "Yor"];
+
+let upper = name.map(w => w.toUpperCase());
+
+console.log(upper);
