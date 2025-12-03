@@ -46,3 +46,12 @@ numbers.forEach(n => {
         
     }
 })
+
+// Ex6
+
+let name = ["Scarlet", "Aurora", "Marin", "Zero Two", "Yor"];
+
+name.forEach((name) => {
+    console.log(name);
+    
+})
