@@ -74,8 +74,16 @@
 
 // Ex12
 
-let nums = [10, 20, 60, 5, 70];
+// let nums = [10, 20, 60, 5, 70];
 
-let result = nums.find(n => n > 50);
+// let result = nums.find(n => n > 50);
 
-console.log(result);
+// console.log(result);
+
+// Ex13
+
+let nums = [3, 5, -2 ,7];
+
+let hasNagative = nums.some(n => n < 0);
+
+console.log(hasNagative);
