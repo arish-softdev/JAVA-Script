@@ -5,3 +5,9 @@ function add(a, b) {
 }
 
 console.log(add(5, 10));
+
+// Ex1
+
+const greet = () => "Now it's my turn";
+
+console.log(greet());
