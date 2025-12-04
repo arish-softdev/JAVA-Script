@@ -26,8 +26,12 @@
 
 // Ex4
 
-const square = (num) => num * num;
+// const square = (num) => num * num;
 
-console.log(square(6));
+// console.log(square(6));
 
-// 
+// Ex4
+
+let printName = () => console.log("Arish");
+
+printName();
