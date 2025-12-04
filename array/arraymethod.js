@@ -104,8 +104,9 @@
 
 // Ex16
 
-let name = ["Scarlet", "Aurora", "Marin", "Zero Two", "Yor"];
+// let name = ["Scarlet", "Aurora", "Marin", "Zero Two", "Yor"];
 
-let upper = name.map(w => w.toUpperCase());
+// let upper = name.map(w => w.toUpperCase());
 
-console.log(upper);
+// console.log(upper);
+
