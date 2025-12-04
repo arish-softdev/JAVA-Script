@@ -32,6 +32,12 @@
 
 // Ex4
 
-let printName = () => console.log("Arish");
+// let printName = () => console.log("Arish");
 
-printName();
+// printName();
+
+// Ex5
+
+const largest = (a, b) => (a > b ? a : b);
+
+console.log(largest(10, 20));
