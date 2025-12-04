@@ -110,3 +110,10 @@
 
 // console.log(upper);
 
+// Ex17
+
+let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
+
+let longNames = names.filter(name => name.length > 4);
+
+console.log(longNames);
