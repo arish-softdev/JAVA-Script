@@ -20,6 +20,14 @@
 
 // Ex3
 
-let checkEvenOdd = (n) => (n % 2 === 0 ? "Even" : "Odd");
+// let checkEvenOdd = (n) => (n % 2 === 0 ? "Even" : "Odd");
 
-console.log(checkEvenOdd(7));
+// console.log(checkEvenOdd(7));
+
+// Ex4
+
+const square = (num) => num * num;
+
+console.log(square(6));
+
+// 
