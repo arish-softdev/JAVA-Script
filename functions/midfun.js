@@ -38,6 +38,22 @@
 
 // Ex5
 
-const largest = (a, b) => (a > b ? a : b);
+// const largest = (a, b) => (a > b ? a : b);
 
-console.log(largest(10, 20));
+// console.log(largest(10, 20));
+
+// Ex6
+
+const countV = (str) => {
+    let vewels = "aeiouAEIOU";
+    let count = 0;
+
+    for (let char of str) {
+        if (vewels.includes(char)) count++;
+    }
+
+    return count;
+};
+
+console.log(countV("JavaScript"));
+console.log(countV("AquaMarineHoshino"));
