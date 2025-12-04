@@ -117,3 +117,11 @@ let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "
 let longNames = names.filter(name => name.length > 4);
 
 console.log(longNames);
+
+// Ex18
+
+let nums = [12, 50, 20, 7];
+
+let max = nums.reduce((a,b) => a > b ? a : b);
+
+console.log(max);
