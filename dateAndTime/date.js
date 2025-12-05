@@ -17,4 +17,3 @@ const seconds = currentDate.getSeconds();
 
 console.log("Current Date:", year + "-" + month + "-" + day);
 console.log("Current Time:", hours + ":" + minutes + ":" + seconds);
-
