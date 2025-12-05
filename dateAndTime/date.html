@@ -1,34 +1,19 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dates and Times</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formatted Date and Time</title>
 </head>
 <body>
+  <div>
     <p id="formattedDate"></p>
     <p id="formattedTime"></p>
+  </div>
 
-    <script>
-        function updateCurrentDateTime() {
-    const currentDate = new Date();
-    const year = currentDate.getFullYear();
-    const month = currentDate.gettoLocalString("default", { month: "long "});
-    const day = currentDate.getDate();
-    const hours = currentDate.getHours();
-    const minutes = currentDate.getMinutes();
-    const seconds = currentDate.getSeconds();
-    
-    
-    const formattedDate = "Formatted Date: " + month + " / " + day + " / " + year;
-    const formattedTime = "Formatted Time: " + hours + " : " + minutes + " : " + seconds;
-
-
-    document.getElementById("formattedDate").textContent = formattedDate;
-    document.getElementById("formattedTime").textContent = formattedTime;
-}
-
-updateCurrentDateTime();
-    </script>
+  <script src="./time.js">
+  </script>
 </body>
 </html>
+  
