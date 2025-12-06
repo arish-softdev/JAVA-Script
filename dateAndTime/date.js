@@ -4,7 +4,7 @@
 
 // console.log(currentDate);
 
-// 
+//
 
 const currentDate = new Date();
 const year = currentDate.getFullYear();
@@ -13,7 +13,6 @@ const day = currentDate.getDate();
 const hours = currentDate.getHours();
 const minutes = currentDate.getMinutes();
 const seconds = currentDate.getSeconds();
-
 
 console.log("Current Date:", year + "-" + month + "-" + day);
 console.log("Current Time:", hours + ":" + minutes + ":" + seconds);
