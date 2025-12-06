@@ -13,11 +13,9 @@ function updateCurrentTime() {
     ":" +
     seconds.toString().padStart(2, "0");
 
-    document.getElementById("clock").textContent = formattedTime;
+  document.getElementById("clock").textContent = formattedTime;
 }
 
-
 updateCurrentTime();
-
 
 setInterval(updateCurrentTime, 1000);
