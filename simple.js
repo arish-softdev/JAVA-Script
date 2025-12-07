@@ -8,10 +8,14 @@
 
 // console.log(b);
 
-function multiple() {
-  let a=10;
-  let b=2;
-  console.log(a*b);
-}
+// function multiple() {
+//   let a=10;
+//   let b=2;
+//   console.log(a*b);
+// }
 
-multiple();
+// multiple();
+
+var a;
+console.log(a);
+a = 1;
