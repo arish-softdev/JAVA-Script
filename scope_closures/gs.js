@@ -4,13 +4,13 @@
 
 // function fname() {
 //     console.log(name);
-    
+
 // }
 
 // fname();
 
 function demo() {
-    z = 77;
+  z = 77;
 }
 
 demo();
