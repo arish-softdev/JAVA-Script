@@ -20,5 +20,15 @@
 // console.log(a);
 // a = 1;
 
-console.log(b);
-let a = 1;
+// console.log(b);
+// let a = 1;
+
+
+// {
+//     let a = 1;
+// }
+
+// console.log(a);
+
+console.log(c);
+const c = 14;
