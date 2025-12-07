@@ -16,6 +16,9 @@
 
 // multiple();
 
-var a;
-console.log(a);
-a = 1;
+// var a;
+// console.log(a);
+// a = 1;
+
+console.log(b);
+let a = 1;
