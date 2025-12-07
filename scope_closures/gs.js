@@ -1,10 +1,18 @@
 // Scopes in js
 
-let name = "Arish";
+// let name = "Arish";
 
-function fname() {
-    console.log(name);
+// function fname() {
+//     console.log(name);
     
+// }
+
+// fname();
+
+function demo() {
+    z = 77;
 }
 
-fname();
+demo();
+
+console.log(z);
