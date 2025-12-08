@@ -126,4 +126,15 @@
 
 // console.log(max);
 
-// 
+// Ex19
+
+let users = [
+    { name: "Arish", age: 19 },
+    { name: "Venkat", age: 19},
+    { name: "Arun", age: 25}
+];
+
+let names = users.map(u => u.name);
+
+
+console.log(names);
