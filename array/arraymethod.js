@@ -112,16 +112,18 @@
 
 // Ex17
 
-let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
+// let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
 
-let longNames = names.filter(name => name.length > 4);
+// let longNames = names.filter(name => name.length > 4);
 
-console.log(longNames);
+// console.log(longNames);
 
 // Ex18
 
-let nums = [12, 50, 20, 7];
+// let nums = [12, 50, 20, 7];
 
-let max = nums.reduce((a,b) => a > b ? a : b);
+// let max = nums.reduce((a,b) => a > b ? a : b);
 
-console.log(max);
+// console.log(max);
+
+// 
