@@ -161,8 +161,6 @@ x.forEach( z => {y.push(z)} );
 
 console.log(y);
 
-
-
 // Ex23 
 
 // let numbers = [3, 8, 19, 7];
