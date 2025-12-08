@@ -154,7 +154,13 @@
 
 // Ex22
 
-// let x = [1, 10, 20];
+let x = [1, 10, 20];
+let y = [];
+
+x.forEach( z => {y.push(z)} );
+
+console.log(y);
+
 
 
 // Ex23 
@@ -166,6 +172,6 @@
 
 // Ex24
 
-let fruits = ["Apple", "Banana", "Mango"];
+// let fruits = ["Apple", "Banana", "Mango"];
 
-console.log(fruits.includes("Banana"));
+// console.log(fruits.includes("Banana"));
