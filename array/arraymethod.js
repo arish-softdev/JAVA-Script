@@ -138,3 +138,6 @@ let names = users.map(u => u.name);
 
 
 console.log(names);
+
+// Ex30
+
