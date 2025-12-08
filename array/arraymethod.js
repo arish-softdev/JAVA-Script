@@ -177,6 +177,6 @@ console.log(y);
 // Ex25
 
 let nums = [40, 100 ,1, 5, 25];
-nums.sort((a,b) => a - b);
+nums.sort((a, b) => a - b);
 
 console.log(nums);
