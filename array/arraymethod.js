@@ -98,9 +98,9 @@
 
 // Ex15
 
-let values = [1, 2, 3];
+// let values = [1, 2, 3];
 
-values.forEach(n => console.log(n * 10));
+// values.forEach(n => console.log(n * 10));
 
 // Ex16
 
@@ -147,7 +147,19 @@ values.forEach(n => console.log(n * 10));
 
 // Ex21
 
-let nums = [1, 3, 7, 10];
-let check = nums.some(n => n % 2 === 0);
+// let nums = [1, 3, 7, 10];
+// let check = nums.some(n => n % 2 === 0);
 
-console.log(check);
+// console.log(check);
+
+// Ex22
+
+// let x = [1, 10, 20];
+
+
+// Ex23 
+
+let numbers = [3, 8, 19, 7];
+let res = numbers.find(n => n > 10);
+
+console.log(res);
