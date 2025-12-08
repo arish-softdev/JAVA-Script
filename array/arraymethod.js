@@ -128,16 +128,19 @@
 
 // Ex19
 
-let users = [
-    { name: "Arish", age: 19 },
-    { name: "Venkat", age: 19},
-    { name: "Arun", age: 25}
-];
+// let users = [
+//     { name: "Arish", age: 19 },
+//     { name: "Venkat", age: 19},
+//     { name: "Arun", age: 25}
+// ];
 
-let names = users.map(u => u.name);
+// let names = users.map(u => u.name);
 
 
-console.log(names);
+// console.log(names);
 
 // Ex30
 
+let arr = [5, 10, 15];
+
+console.log(arr.every(n => n > 0));
