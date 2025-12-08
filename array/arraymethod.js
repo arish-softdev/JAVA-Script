@@ -165,3 +165,7 @@
 // console.log(res);
 
 // Ex24
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits.includes("Banana"));
