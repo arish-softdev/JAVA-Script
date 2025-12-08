@@ -159,7 +159,9 @@
 
 // Ex23 
 
-let numbers = [3, 8, 19, 7];
-let res = numbers.find(n => n > 10);
+// let numbers = [3, 8, 19, 7];
+// let res = numbers.find(n => n > 10);
 
-console.log(res);
+// console.log(res);
+
+// Ex24
