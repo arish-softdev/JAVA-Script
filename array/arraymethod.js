@@ -173,3 +173,10 @@ console.log(y);
 // let fruits = ["Apple", "Banana", "Mango"];
 
 // console.log(fruits.includes("Banana"));
+
+// Ex25
+
+let nums = [40, 100 ,1, 5, 25];
+nums.sort((a,b) => a - b);
+
+console.log(nums);
