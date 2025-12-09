@@ -32,8 +32,16 @@
 
 // Ex3
 
-let x = 5;
+// let x = 5;
 
-let y = x > 10 ? "Greater" : "Smaller";
+// let y = x > 10 ? "Greater" : "Smaller";
 
-console.log(y);
+// console.log(y);
+
+// Ex4
+
+let marks = 55;
+
+let result = marks >= 35 ? "Pass" : "Fail";
+
+console.log(result);
