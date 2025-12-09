@@ -16,8 +16,16 @@
 
 // Ex1
 
-let age = 18;
+// let age = 18;
 
-let result = age >= 18 ? "Adult" : "Minor";
+// let result = age >= 18 ? "Adult" : "Minor";
 
-console.log(result);
+// console.log(result);
+
+// Ex2
+
+let n = 7;
+
+let ore = n % 2 === 0 ? "Even" : "Odd";
+
+console.log(ore);
