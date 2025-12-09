@@ -24,8 +24,16 @@
 
 // Ex2
 
-let n = 7;
+// let n = 7;
 
-let ore = n % 2 === 0 ? "Even" : "Odd";
+// let ore = n % 2 === 0 ? "Even" : "Odd";
 
-console.log(ore);
+// console.log(ore);
+
+// Ex3
+
+let x = 5;
+
+let y = x > 10 ? "Greater" : "Smaller";
+
+console.log(y);
