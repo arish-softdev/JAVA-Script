@@ -112,11 +112,11 @@
 
 // Ex17
 
-// let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
+let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
 
-// let longNames = names.filter(name => name.length > 4);
+let longNames = names.filter(name => name.length > 4);
 
-// console.log(longNames);
+console.log(longNames);
 
 // Ex18
 
@@ -154,12 +154,12 @@
 
 // Ex22
 
-let x = [1, 10, 20];
-let y = [];
+// let x = [1, 10, 20];
+// let y = [];
 
-x.forEach( z => {y.push(z)} );
+// x.forEach( z => {y.push(z)} );
 
-console.log(y);
+// console.log(y);
 
 // Ex23 
 
