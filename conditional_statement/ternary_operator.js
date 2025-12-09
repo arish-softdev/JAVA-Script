@@ -1,9 +1,7 @@
 // let isAuthenticated = false;
-  
+
 //       let message = isAuthenticated ? "Welcome back!" : "Please log in.";
 //       console.log(message);
-
-
 
 // let avg = 80;
 // let grade=avg>90? "A+" : avg>=80? "B+" : "C"
@@ -40,8 +38,15 @@
 
 // Ex4
 
-let marks = 55;
+// let marks = 55;
 
-let result = marks >= 35 ? "Pass" : "Fail";
+// let result = marks >= 35 ? "Pass" : "Fail";
 
-console.log(result);
+// console.log(result);
+
+// Ex5
+
+let a = 70;
+let b = 20;
+let big = a > b ? a : b;
+console.log(big);
