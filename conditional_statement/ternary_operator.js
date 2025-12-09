@@ -49,4 +49,5 @@
 let a = 70;
 let b = 20;
 let big = a > b ? a : b;
+
 console.log(big);
