@@ -46,8 +46,11 @@
 
 // Ex5
 
-let a = 70;
-let b = 20;
-let big = a > b ? a : b;
+// let a = 70;
+// let b = 20;
 
-console.log(big);
+// let big = a > b ? a : b;
+
+// console.log(big);
+
+// Ex6
