@@ -35,3 +35,12 @@
 //     console.log(fem.toUpperCase());
     
 // });
+
+// Ex5
+
+let nums = [1, 2, 3, 4];
+
+nums.forEach(function(n) {
+    console.log(n * 2);
+    
+});
