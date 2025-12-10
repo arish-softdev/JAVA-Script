@@ -11,9 +11,18 @@
 
 // Ex2
 
-let letters = ["a", "b", "c"];
+// let letters = ["a", "b", "c"];
 
-letters.forEach(function(value, index) {
-    console.log(index, value);
+// letters.forEach(function(value, index) {
+//     console.log(index, value);
     
+// });
+
+// Ex3
+
+let arr = [5, 10, 45];
+let sum = 0;
+
+arr.forEach(function(num) {
+    sum += num;
 });
