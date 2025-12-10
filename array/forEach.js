@@ -47,11 +47,25 @@
 
 // Ex6 
 
-let numbers = [11, 22, 33, 44, 55];
+// let numbers = [11, 22, 33, 44, 55];
 
-numbers.forEach(function(n) {
-    if (n % 2 === 0) {
-        console.log(n);
+// numbers.forEach(function(n) {
+//     if (n % 2 === 0) {
+//         console.log(n);
         
+//     }
+// });
+
+// Ex7
+
+let people = ["Ai", "Aqua", "Ruby", "Kana", "Akane", "Memcho"];
+let count = 0;
+
+people.forEach(function(name) {
+    if (name.length > 4) {
+        count++;
+
     }
-});
+})
+
+console.log(count);
