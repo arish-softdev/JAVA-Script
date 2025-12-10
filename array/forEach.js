@@ -86,3 +86,14 @@
 // let result = [1, 3, 4].forEach(num => num * 2);
 
 // console.log(result);  // undefined
+
+// Ex10
+
+let nums = [1, 2, 3];
+
+nums.forEach((v, i, arr) => {
+    arr[i] = v * 10;
+
+});
+
+console.log(nums);
