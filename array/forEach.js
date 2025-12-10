@@ -83,6 +83,6 @@
 
 // Ex9
 
-let result = [1, 3, 4].forEach(num => num * 2);
+// let result = [1, 3, 4].forEach(num => num * 2);
 
-console.log(result);
+// console.log(result);  // undefined
