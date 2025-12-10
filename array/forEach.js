@@ -72,11 +72,13 @@
 
 // Ex8
 
-let arr = [3, 6, 9];
-let dummy = [];
+// let arr = [3, 6, 9];
+// let dummy = [];
 
-arr.forEach(function(n) {
-    dummy.push(n);
-})
+// arr.forEach(function(n) {
+//     dummy.push(n);
+// })
 
-console.log(dummy);
+// console.log(dummy);
+
+// E
