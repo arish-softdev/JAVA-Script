@@ -20,9 +20,18 @@
 
 // Ex3
 
-let arr = [5, 10, 45];
-let sum = 0;
+// let arr = [5, 10, 45];
+// let sum = 0;
 
-arr.forEach(function(num) {
-    sum += num;
+// arr.forEach(function(num) {
+//     sum += num;
+// });
+
+// Ex4
+
+let names = ["Scarlet", "Shina", "Hima"];
+
+names.forEach(function(fem) {
+    console.log(fem.toUpperCase());
+    
 });
