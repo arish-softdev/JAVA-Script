@@ -2,9 +2,18 @@
 
 // Ex1
 
-let nums = [10, 20, 30, 40];
+// let nums = [10, 20, 30, 40];
 
-nums.forEach(function(n) {
-    console.log(n);
+// nums.forEach(function(n) {
+//     console.log(n);
+    
+// });
+
+// Ex2
+
+let letters = ["a", "b", "c"];
+
+letters.forEach(function(value, index) {
+    console.log(index, value);
     
 });
