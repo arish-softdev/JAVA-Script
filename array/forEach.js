@@ -29,9 +29,9 @@
 
 // Ex4
 
-let names = ["Scarlet", "Shina", "Hima"];
+// let names = ["Scarlet", "Shina", "Hima"];
 
-names.forEach(function(fem) {
-    console.log(fem.toUpperCase());
+// names.forEach(function(fem) {
+//     console.log(fem.toUpperCase());
     
-});
+// });
