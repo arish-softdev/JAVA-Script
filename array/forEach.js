@@ -58,14 +58,14 @@
 
 // Ex7
 
-let people = ["Ai", "Aqua", "Ruby", "Kana", "Akane", "Memcho"];
-let count = 0;
+// let people = ["Ai", "Aqua", "Ruby", "Kana", "Akane", "Memcho"];
+// let count = 0;
 
-people.forEach(function(name) {
-    if (name.length > 4) {
-        count++;
+// people.forEach(function(name) {
+//     if (name.length > 4) {
+//         count++;
 
-    }
-})
+//     }
+// })
 
-console.log(count);
+// console.log(count);
