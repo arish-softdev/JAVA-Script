@@ -38,9 +38,20 @@
 
 // Ex5
 
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-nums.forEach(function(n) {
-    console.log(n * 2);
+// nums.forEach(function(n) {
+//     console.log(n * 2);
     
+// });
+
+// Ex6 
+
+let numbers = [11, 22, 33, 44, 55];
+
+numbers.forEach(function(n) {
+    if (n % 2 === 0) {
+        console.log(n);
+        
+    }
 });
