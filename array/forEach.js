@@ -100,10 +100,14 @@
 
 // Ex11
 
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-nums.forEach(n => {
-    if (n === 3) break;
-    console.log(n);
+// nums.forEach(n => {
+//     if (n === 3) break;
+//     console.log(n);
     
-})
+// })
+
+// Ex12
+
+let 
