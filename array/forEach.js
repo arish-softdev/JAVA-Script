@@ -89,11 +89,21 @@
 
 // Ex10
 
-let nums = [1, 2, 3];
+// let nums = [1, 2, 3];
 
-nums.forEach((v, i, arr) => {
-    arr[i] = v * 10;
+// nums.forEach((v, i, arr) => {
+//     arr[i] = v * 10;
 
-});
+// });
 
-console.log(nums);
+// console.log(nums);
+
+// Ex11
+
+let nums = [1, 2, 3, 4];
+
+nums.forEach(n => {
+    if (n === 3) break;
+    console.log();
+    
+})
