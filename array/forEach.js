@@ -104,6 +104,6 @@ let nums = [1, 2, 3, 4];
 
 nums.forEach(n => {
     if (n === 3) break;
-    console.log();
+    console.log(n);
     
 })
