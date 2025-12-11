@@ -1,0 +1,1 @@
+// ForEach array methods in javascript
