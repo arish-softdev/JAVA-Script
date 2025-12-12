@@ -34,4 +34,9 @@
 
 // console.log(result);
 
-// 
+// Ex6
+
+let names = ["Ram", "Sita", "Lakshman"];
+let result = names.map(n => n.length);
+
+console.log(result);
