@@ -29,7 +29,9 @@
 
 // Ex5 
 
-let nums = [10, 20, 30];
-let result = nums.map(n => n + 5);
+// let nums = [10, 20, 30];
+// let result = nums.map(n => n + 5);
 
-console.log(result);
+// console.log(result);
+
+// 
