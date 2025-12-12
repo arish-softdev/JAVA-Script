@@ -22,7 +22,9 @@
 
 // Ex4
 
-let fruits = ["apple", "banana", "mango"];
-let result = fruits.map(f => f.toUpperCase());
+// let fruits = ["apple", "banana", "mango"];
+// let result = fruits.map(f => f.toUpperCase());
 
-console.log(result);
+// console.log(result);
+
+// 
