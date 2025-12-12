@@ -54,7 +54,14 @@
 
 // Ex8
 
-let arr = [1, 2, 3];
-let result = arr.map(n => n.toString());
+// let arr = [1, 2, 3];
+// let result = arr.map(n => n.toString());
+
+// console.log(result);
+
+// Ex9
+
+let arr = [2, 3, 4];
+let result = arr.map(n => n * n);
 
 console.log(result);
