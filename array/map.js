@@ -43,11 +43,18 @@
 
 // Ex7
 
-let people = [
-    { name: "Aqua", age: 22 },
-    { name: "John", age: 25 }
-];
+// let people = [
+//     { name: "Aqua", age: 22 },
+//     { name: "John", age: 25 }
+// ];
 
-let result = people.map(p => p.age);
+// let result = people.map(p => p.age);
+
+// console.log(result);
+
+// Ex8
+
+let arr = [1, 2, 3];
+let result = arr.map(n => n.toString());
 
 console.log(result);
