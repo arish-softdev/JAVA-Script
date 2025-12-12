@@ -41,4 +41,13 @@
 
 // console.log(result);
 
-// 
+// Ex7
+
+let people = [
+    { name: "Aqua", age: 22 },
+    { name: "John", age: 25 }
+];
+
+let result = people.map(p => p.age);
+
+console.log(result);
