@@ -112,11 +112,11 @@
 
 // Ex17
 
-let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
+// let names = ["Yor", "Ai", "Alya", "Ruby", "Kana", "Akane", "Marin", "Scarlet", "Aurora"];
 
-let longNames = names.filter(name => name.length > 4);
+// let longNames = names.filter(name => name.length > 4);
 
-console.log(longNames);
+// console.log(longNames);
 
 // Ex18
 
