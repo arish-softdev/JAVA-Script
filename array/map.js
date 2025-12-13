@@ -65,3 +65,6 @@
 // let result = arr.map(n => n * n);
 
 // console.log(result);
+
+// Ex10
+
