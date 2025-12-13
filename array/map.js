@@ -68,7 +68,14 @@
 
 // Ex10
 
-let words = ["cat", "dog", "ball"];
-let result = words.map(w => w[0]);
+// let words = ["cat", "dog", "ball"];
+// let result = words.map(w => w[0]);
+
+// console.log(result);
+
+// Ex11
+
+let arr = [1, 2, 3, 4];
+let result = arr.map(n => 2 === 0);
 
 console.log(result);
