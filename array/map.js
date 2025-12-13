@@ -68,3 +68,7 @@
 
 // Ex10
 
+let words = ["cat", "dog", "ball"];
+let result = words.map(w => w[0]);
+
+console.log(result);
