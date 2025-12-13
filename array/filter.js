@@ -7,10 +7,18 @@ let even = numbers.filter(num => num % 2 === 0);
 
 console.log(even);
 
-// Ex2
+// Ex2 Length
 
 let names = ["Lemon", "Yanami", "Sayori", "Asuna"];
 
 let longNames = names.filter(name => name.length > 5);
 
 console.log(longNames);
+
+// Ex3 Positive nums
+
+let nums = [-3, 5, -7, 1, 0];
+
+let positive = nums.filter(n => n > 0);
+
+console.log(positive);
