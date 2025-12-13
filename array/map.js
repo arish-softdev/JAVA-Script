@@ -1,4 +1,4 @@
-// ForEach array methods in javascript
+// Map array methods in javascript
 
 // Ex1
 
