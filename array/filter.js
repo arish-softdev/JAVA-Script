@@ -1,1 +1,1 @@
-// Filter
+// Filter Array Method in JavaScript
