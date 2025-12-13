@@ -75,7 +75,14 @@
 
 // Ex11
 
-let arr = [1, 2, 3, 4];
-let result = arr.map(n => 2 === 0);
+// let arr = [1, 2, 3, 4];
+// let result = arr.map(n => 2 === 0);
+
+// console.log(result);
+
+// Ex12
+
+let names = ["Aqua", "Sam", "Ram"];
+let result = names.map(n => "Mr. " + n);
 
 console.log(result);
