@@ -61,7 +61,7 @@
 
 // Ex9
 
-let arr = [2, 3, 4];
-let result = arr.map(n => n * n);
+// let arr = [2, 3, 4];
+// let result = arr.map(n => n * n);
 
-console.log(result);
+// console.log(result);
