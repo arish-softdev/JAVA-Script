@@ -22,3 +22,12 @@ let nums = [-3, 5, -7, 1, 0];
 let positive = nums.filter(n => n > 0);
 
 console.log(positive);
+
+// Negative
+
+let num = [-3, 5, -7, 1, 0];
+
+let negative = num.filter(n => n < 0);
+
+console.log(negative);
+
