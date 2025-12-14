@@ -1,3 +1,5 @@
-btn.addEventListener("dblclick", () => {
-    alert("Double Clicked");
+let button = document.querySelector("#myButton");
+
+button.addEventListener("click", () => {
+  alert("Button clicked!");
 });
