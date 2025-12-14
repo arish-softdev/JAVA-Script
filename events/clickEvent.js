@@ -1,5 +1,5 @@
 let button = document.querySelector("#myButton");
 
-button.addEventListener("click", () => {
-  alert("Button clicked!");
+button.addEventListener("dblclick", () => {
+  alert("Double clicked!");
 });
