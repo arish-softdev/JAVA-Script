@@ -12,3 +12,12 @@ let p = new Promise((resolve, reject) => {
 
 p.then(value => value * 2)
 .then(value => console.log(value));
+
+
+// promise.then(result => {
+//     console.log(result);
+    
+// }).catch(error => {
+//     console.log(error);
+    
+// });
