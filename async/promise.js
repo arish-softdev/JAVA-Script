@@ -1,17 +1,17 @@
-let promise = new Promise((resolve, reject) => {
-    resolve("Succes");
-});
+// let promise = new Promise((resolve, reject) => {
+//     resolve("Succes");
+// });
 
-console.log(promise);
+// console.log(promise);
 
 // Ex1
 
-let p = new Promise((resolve, reject) => {
-    resolve(10);
-});
+// let p = new Promise((resolve, reject) => {
+//     resolve(10);
+// });
 
-p.then(value => value * 2)
-.then(value => console.log(value));
+// p.then(value => value * 2)
+// .then(value => console.log(value));
 
 
 // promise.then(result => {
@@ -21,3 +21,16 @@ p.then(value => value * 2)
 //     console.log(error);
     
 // });
+
+// 
+
+let pro = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Done"), 2000);
+});
+
+console.log("Start");
+pro.then(res => console.log(res));
+console.log("End");
+
+
+
