@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mouse Over Event</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            border-radius: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button{
+            margin: 30px;
+        }
+    </style>
 </head>
 <body>
-    <p onmouseover="showMsg()">Hover Me!</p>
+    <button onmouseover="showMsg()">Hover Me!</button>
 
     <p id="text">Hover here</p>
 
