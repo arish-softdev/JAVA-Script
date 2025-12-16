@@ -13,3 +13,9 @@ button2.addEventListener("mouseover", () => {
 });
 
 //
+
+let button3 = document.querySelector('btn3');
+
+button3.addEventListener('dblclick', () => {
+  alert("Double clicked!")
+})
