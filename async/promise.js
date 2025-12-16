@@ -22,7 +22,7 @@
     
 // });
 
-// 
+// EX3
 
 let pro = new Promise((resolve, reject) => {
     setTimeout(() => resolve("Done"), 2000);
