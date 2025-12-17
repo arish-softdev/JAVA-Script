@@ -24,10 +24,10 @@
 
 // EX3
 
-let pro = new Promise((resolve, reject) => {
-    setTimeout(() => resolve("Done"), 2000);
-});
+// let pro = new Promise((resolve, reject) => {
+//     setTimeout(() => resolve("Done"), 2000);
+// });
 
-console.log("Start");
-pro.then(res => console.log(res));
-console.log("End");
+// console.log("Start");
+// pro.then(res => console.log(res));
+// console.log("End");
