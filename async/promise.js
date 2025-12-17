@@ -13,13 +13,12 @@
 // p.then(value => value * 2)
 // .then(value => console.log(value));
 
-
 // promise.then(result => {
 //     console.log(result);
-    
+
 // }).catch(error => {
 //     console.log(error);
-    
+
 // });
 
 // EX3
@@ -56,17 +55,15 @@
 //     }, 2000);
 // });
 
-
 // myPromise.then(data => console.log(data));
 
 // Ex6
 
-let numberPromise = new Promise(resolve => {
-    resolve(5);
+let numberPromise = new Promise((resolve) => {
+  resolve(5);
 });
 
 numberPromise
-  .then(num => num * 2)
-  .then(result => result + 3)
-  .then(finalResult => console.log(finalResult));
-  
+  .then((num) => num * 2)
+  .then((result) => result + 3)
+  .then((finalResult) => console.log(finalResult));
