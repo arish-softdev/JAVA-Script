@@ -48,3 +48,13 @@
 // .then(result => console.log(result))
 // .catch(error => console.log(errorr));
 
+// Ex5
+
+let myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Data loaded after 2 seconds");
+    }, 2000);
+});
+
+
+myPromise.then(data => console.log(data));
