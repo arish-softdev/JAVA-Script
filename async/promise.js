@@ -31,3 +31,19 @@
 // console.log("Start");
 // pro.then(res => console.log(res));
 // console.log("End");
+
+// Ex4
+
+let promise = new Promise((resolve, reject) => {
+    let success = true;
+
+    if (success) {
+        resolve("Promise resolved successfully");
+    } else {
+        reject("Promise rejected");
+    }
+});
+
+promise
+.then(result => console.log(result))
+.catch(error => console.log(errorr));
