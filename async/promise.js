@@ -50,11 +50,22 @@
 
 // Ex5
 
-let myPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve("Data loaded after 2 seconds");
-    }, 2000);
+// let myPromise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve("Data loaded after 2 seconds");
+//     }, 2000);
+// });
+
+
+// myPromise.then(data => console.log(data));
+
+// Ex6
+
+let numberPromise = new Promise(resolve => {
+    resolve(5);
 });
 
-
-myPromise.then(data => console.log(data));
+numberPromise
+  .then(num => num * 2)
+  .then(result => result + 3)
+  .then(finalResult => console.log(finalResult));
