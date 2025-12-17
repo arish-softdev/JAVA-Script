@@ -34,16 +34,17 @@
 
 // Ex4
 
-let promise = new Promise((resolve, reject) => {
-    let success = true;
+// let promise = new Promise((resolve, reject) => {
+//     let success = true;
 
-    if (success) {
-        resolve("Promise resolved successfully");
-    } else {
-        reject("Promise rejected");
-    }
-});
+//     if (success) {
+//         resolve("Promise resolved successfully");
+//     } else {
+//         reject("Promise rejected");
+//     }
+// });
 
-promise
-.then(result => console.log(result))
-.catch(error => console.log(errorr));
+// promise
+// .then(result => console.log(result))
+// .catch(error => console.log(errorr));
+
