@@ -31,4 +31,3 @@ let pro = new Promise((resolve, reject) => {
 console.log("Start");
 pro.then(res => console.log(res));
 console.log("End");
-
