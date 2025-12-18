@@ -59,14 +59,27 @@
 
 // Ex6
 
-let numberPromise = new Promise((resolve) => {
-  resolve(5);
-});
+// let numberPromise = new Promise((resolve) => {
+//   resolve(5);
+// });
 
-numberPromise
-  .then((num) => num * 2)
-  .then((result) => result + 3)
-  .then((finalResult) => console.log(finalResult));
+// numberPromise
+//   .then((num) => num * 2)
+//   .then((result) => result + 3)
+//   .then((finalResult) => console.log(finalResult));
 
 // Ex7
 
+let ageCheck = new Promise((resolve, reject) => {
+  let age = 15;
+
+  if (age >= 18) {
+    resolve("Access granted");
+  } else {
+    reject("Access denied");
+  }
+});
+
+ageCheck 
+  .then(msg => console.log(msg))
+  .catch(err => console.log(err));
