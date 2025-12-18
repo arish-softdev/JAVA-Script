@@ -68,3 +68,5 @@ numberPromise
   .then((result) => result + 3)
   .then((finalResult) => console.log(finalResult));
 
+// Ex7
+
