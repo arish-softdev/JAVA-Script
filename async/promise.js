@@ -70,16 +70,18 @@
 
 // Ex7
 
-let ageCheck = new Promise((resolve, reject) => {
-  let age = 15;
+// let ageCheck = new Promise((resolve, reject) => {
+//   let age = 15;
 
-  if (age >= 18) {
-    resolve("Access granted");
-  } else {
-    reject("Access denied");
-  }
-});
+//   if (age >= 18) {
+//     resolve("Access granted");
+//   } else {
+//     reject("Access denied");
+//   }
+// });
 
-ageCheck 
-  .then(msg => console.log(msg))
-  .catch(err => console.log(err));
+// ageCheck 
+//   .then(msg => console.log(msg))
+//   .catch(err => console.log(err));
+
+// Ex8
