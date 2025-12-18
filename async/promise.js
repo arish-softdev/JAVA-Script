@@ -115,3 +115,18 @@ Promise.all([p1, p2, p3])
 
 // Ex10
 
+function fetchData() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve("Fetched Data");
+    }, 1000);
+  });
+}
+
+async function showData() {
+  let result = await fetchData();
+  console.log(result);
+  
+}
+
+showData();
