@@ -35,4 +35,6 @@
 
 let nums = [5, 12, 8, 20, 3];
 
-let 
+let result = nums.filter(n => n > 10);
+
+console.log(result);
