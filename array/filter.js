@@ -38,3 +38,10 @@ let nums = [5, 12, 8, 20, 3];
 let result = nums.filter(n => n > 10);
 
 console.log(result);
+
+// Ex5
+
+let users = [
+    { name: "Aqua", active: true },
+    { name }
+];
