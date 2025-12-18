@@ -85,3 +85,19 @@
 //   .catch(err => console.log(err));
 
 // Ex8
+
+function getData() {
+  return new Promise((resolve, reject) => {
+    let dataAvailable = true;
+
+    if (dataAvailable) {
+      resolve("Here is your data");
+    } else {
+      reject("No data found");
+    }
+  });
+}
+
+getData()
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
