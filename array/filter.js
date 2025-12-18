@@ -43,5 +43,6 @@ console.log(result);
 
 let users = [
     { name: "Aqua", active: true },
-    { name }
+    { name: "Ayano", active: false },
+    { name: "Cid", active: }
 ];
