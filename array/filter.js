@@ -44,5 +44,9 @@ console.log(result);
 let users = [
     { name: "Aqua", active: true },
     { name: "Ayano", active: false },
-    { name: "Cid", active: }
+    { name: "Cid", active: true }
 ];
+
+let activeUsers = users.filter(user => user.active);
+
+console.log(activeUsers);
