@@ -31,3 +31,5 @@ let negative = num.filter(n => n < 0);
 
 console.log(negative);
 
+// Ex4 Greater Nums
+
