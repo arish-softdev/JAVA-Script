@@ -88,7 +88,7 @@
 
 function getData() {
   return new Promise((resolve, reject) => {
-    let dataAvailable = true;
+    let dataAvailable = false;
 
     if (dataAvailable) {
       resolve("Here is your data");
