@@ -101,3 +101,5 @@ function getData() {
 getData()
   .then(data => console.log(data))
   .catch(err => console.log(err));
+
+// Ex9
