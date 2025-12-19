@@ -33,26 +33,26 @@
 
 // Ex4 Greater Nums
 
-let nums = [5, 12, 8, 20, 3];
+// let nums = [5, 12, 8, 20, 3];
 
-let result = nums.filter(n => n > 10);
+// let result = nums.filter(n => n > 10);
 
-console.log(result);
+// console.log(result);
 
 // Ex5
 
-let users = [
-    { name: "Aqua", active: true },
-    { name: "Ayano", active: false },
-    { name: "Cid", active: true }
-];
+// let users = [
+//     { name: "Aqua", active: true },
+//     { name: "Ayano", active: false },
+//     { name: "Cid", active: true }
+// ];
 
-let activeUsers = users.filter(user => user.active);
+// let activeUsers = users.filter(user => user.active);
 
-console.log(activeUsers);
+// console.log(activeUsers);
 
 // Ex6 Remove falsy values
 
 let arr = [0, 3, true, '', 7];
 
-console.log(arr);
+console.log(arr.filter(Boolean));
