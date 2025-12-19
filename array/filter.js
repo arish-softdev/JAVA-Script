@@ -60,3 +60,5 @@ console.log(arr.filter(Boolean));
 // Ex7 
 
 let nums = [1, 2, 3, 4];
+
+console.log(nums.filter(n => n));
