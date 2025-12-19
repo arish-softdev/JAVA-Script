@@ -50,3 +50,5 @@ let users = [
 let activeUsers = users.filter(user => user.active);
 
 console.log(activeUsers);
+
+// Ex6 
