@@ -51,4 +51,8 @@ let activeUsers = users.filter(user => user.active);
 
 console.log(activeUsers);
 
-// Ex6 
+// Ex6 Remove falsy values
+
+let arr = [0, 3, true, '', 7];
+
+console.log(arr);
