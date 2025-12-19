@@ -57,4 +57,6 @@ let arr = [0, 3, true, '', 7];
 
 console.log(arr.filter(Boolean));
 
-// 
+// Ex7 
+
+let nums = [1, 2, 3, 4];
