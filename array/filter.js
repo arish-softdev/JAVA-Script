@@ -59,9 +59,9 @@ console.log(arr.filter(Boolean));
 
 // Ex7 
 
-let num = [1, 2, 3, 4];
+// let num = [1, 2, 3, 4];
 
-console.log(num.filter(n => n));
+// console.log(num.filter(n => n));
 
 // Ex8
 
