@@ -53,9 +53,9 @@
 
 // Ex6 Remove falsy values
 
-let arr = [0, 3, true, '', 7];
+// let arr = [0, 3, true, '', 7];
 
-console.log(arr.filter(Boolean));
+// console.log(arr.filter(Boolean));
 
 // Ex7 
 
