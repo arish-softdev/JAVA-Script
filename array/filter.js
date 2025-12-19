@@ -56,3 +56,5 @@
 let arr = [0, 3, true, '', 7];
 
 console.log(arr.filter(Boolean));
+
+// 
