@@ -110,11 +110,13 @@
 
 // Ex12
 
-let arr = [1, 2, 3];
+// let arr = [1, 2, 3];
 
-arr.forEach(n => {
-    arr.push(n + 3);
-});
+// arr.forEach(n => {
+//     arr.push(n + 3);
+// });
 
-console.log(arr);
+// console.log(arr);
+
+// Ex1
 
