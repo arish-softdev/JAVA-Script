@@ -63,7 +63,7 @@
 
 // console.log(num.filter(n => n));
 
-// Ex8
+// Ex8 callback returns
 
 let nums = [1, 2, 3, 4];
 console.log(nums.filter(n => n - 2));
