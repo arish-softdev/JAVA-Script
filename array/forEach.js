@@ -144,3 +144,15 @@ numbers.forEach(num => {
     console.log(num + 5);
     
 });
+
+// Ex 4
+
+let users = [
+    { name: "Ravi", age: 22 },
+    { name: "Kumar", age: 17 }
+];
+
+users.forEach(user => {
+    console.log(user.name);
+    
+});
