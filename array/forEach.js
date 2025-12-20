@@ -126,3 +126,12 @@ nums.forEach(num => {
     console.log(num);
     
 });
+
+// Ex2 
+
+let fruits = ["apple", "banana", "mango"];
+
+fruits.forEach((fruit, index) => {
+    console.log(index + " - " + fruit);
+    
+});
