@@ -158,3 +158,12 @@ users.forEach(user => {
 });
 
 // Ex5
+
+let total = 0;
+let numz = [10, 20, 30];
+
+numz.forEach(num0 => {
+    total -= num0;
+});
+
+console.log(total);
