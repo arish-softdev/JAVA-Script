@@ -153,6 +153,8 @@ let users = [
 ];
 
 users.forEach(user => {
-    console.log(users);
+    console.log(user.name);
     
 });
+
+// 
