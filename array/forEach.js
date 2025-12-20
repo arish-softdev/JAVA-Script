@@ -6,7 +6,7 @@
 
 // nums.forEach(function(n) {
 //     console.log(n);
-    
+
 // });
 
 // Ex2
@@ -15,7 +15,7 @@
 
 // letters.forEach(function(value, index) {
 //     console.log(index, value);
-    
+
 // });
 
 // Ex3
@@ -33,7 +33,7 @@
 
 // names.forEach(function(fem) {
 //     console.log(fem.toUpperCase());
-    
+
 // });
 
 // Ex5
@@ -42,17 +42,17 @@
 
 // nums.forEach(function(n) {
 //     console.log(n * 2);
-    
+
 // });
 
-// Ex6 
+// Ex6
 
 // let numbers = [11, 22, 33, 44, 55];
 
 // numbers.forEach(function(n) {
 //     if (n % 2 === 0) {
 //         console.log(n);
-        
+
 //     }
 // });
 
@@ -105,7 +105,7 @@
 // nums.forEach(n => {
 //     if (n === 3) break;
 //     console.log(n);
-    
+
 // })
 
 // Ex12
@@ -122,39 +122,35 @@
 
 let nums = [10, 20, 30];
 
-nums.forEach(num => {
-    console.log(num);
-    
+nums.forEach((num) => {
+  console.log(num);
 });
 
-// Ex2 
+// Ex2
 
 let fruits = ["apple", "banana", "mango"];
 
 fruits.forEach((fruit, index) => {
-    console.log(index + " - " + fruit);
-    
+  console.log(index + " - " + fruit);
 });
 
 // Ex3
 
 let numbers = [1, 2, 3];
 
-numbers.forEach(num => {
-    console.log(num + 5);
-    
+numbers.forEach((num) => {
+  console.log(num + 5);
 });
 
 // Ex4
 
 let users = [
-    { name: "Ravi", age: 22 },
-    { name: "Kumar", age: 17 }
+  { name: "Ravi", age: 22 },
+  { name: "Kumar", age: 17 },
 ];
 
-users.forEach(user => {
-    console.log(user.name);
-    
+users.forEach((user) => {
+  console.log(user.name);
 });
 
 // Ex5
@@ -162,8 +158,8 @@ users.forEach(user => {
 let total = 0;
 let numz = [10, 20, 30];
 
-numz.forEach(num0 => {
-    total += num0;
+numz.forEach((num0) => {
+  total += num0;
 });
 
 console.log(total);
