@@ -135,3 +135,12 @@ fruits.forEach((fruit, index) => {
     console.log(index + " - " + fruit);
     
 });
+
+// Ex3
+
+let numbers = [1, 2, 3];
+
+numbers.forEach(num => {
+    console.log(num + 5);
+    
+});
