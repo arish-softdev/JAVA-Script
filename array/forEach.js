@@ -145,7 +145,7 @@ numbers.forEach(num => {
     
 });
 
-// Ex 4
+// Ex4
 
 let users = [
     { name: "Ravi", age: 22 },
@@ -157,4 +157,4 @@ users.forEach(user => {
     
 });
 
-// 
+// Ex5
