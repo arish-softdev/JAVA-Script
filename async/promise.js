@@ -80,7 +80,7 @@
 //   }
 // });
 
-// ageCheck 
+// ageCheck
 //   .then(msg => console.log(msg))
 //   .catch(err => console.log(err));
 
@@ -99,8 +99,8 @@ function getData() {
 }
 
 getData()
-  .then(data => console.log(data))
-  .catch(err => console.log(err));
+  .then((data) => console.log(data))
+  .catch((err) => console.log(err));
 
 // Ex9
 
@@ -108,15 +108,12 @@ let p1 = Promise.resolve(10);
 let p2 = Promise.resolve(20);
 let p3 = Promise.resolve(30);
 
-
-Promise.all([p1, p2, p3])
-  .then(values => console.log(values)
-  );
+Promise.all([p1, p2, p3]).then((values) => console.log(values));
 
 // Ex10
 
 function fetchData() {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve("Fetched Data");
     }, 1000);
@@ -126,7 +123,6 @@ function fetchData() {
 async function showData() {
   let result = await fetchData();
   console.log(result);
-  
 }
 
 showData();
