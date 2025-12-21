@@ -27,7 +27,7 @@
 
 // console.log(result);
 
-// Ex5 
+// Ex5
 
 // let nums = [10, 20, 30];
 // let result = nums.map(n => n + 5);
@@ -83,6 +83,6 @@
 // Ex12
 
 let names = ["Aqua", "Sam", "Ram"];
-let result = names.map(n => "Mr. " + n);
+let result = names.map((n) => "Mr. " + n);
 
 console.log(result);
