@@ -57,7 +57,7 @@
 
 // console.log(arr.filter(Boolean));
 
-// Ex7 
+// Ex7
 
 // let num = [1, 2, 3, 4];
 
@@ -66,4 +66,4 @@
 // Ex8 callback returns
 
 let nums = [1, 2, 3, 4];
-console.log(nums.filter(n => n - 2));
+console.log(nums.filter((n) => n - 2));
