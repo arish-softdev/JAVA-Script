@@ -198,3 +198,4 @@ checkNum(5)
   .catch((err) => console.log(err));
 
 // Ex6
+
