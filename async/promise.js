@@ -143,7 +143,7 @@ promise
  .then(result => console.log(result))
  .catch(error => console.log(error));
 
-//  Ex2
+ //  Ex2
 
 let myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -153,3 +153,5 @@ let myPromise = new Promise((resolve, reject) => {
 
 myPromise
  .then(data => console.log(data));
+
+// Ex3
