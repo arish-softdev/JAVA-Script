@@ -180,3 +180,5 @@ new Promise((resolve) => {
   .then((result) => {
     console.log(result);
   });
+
+// Ex5
