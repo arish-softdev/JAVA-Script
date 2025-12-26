@@ -172,3 +172,15 @@ ageCheck
 
 // Ex4 
 
+new Promise((resolve) => {
+  resolve(10);
+})
+
+.then(num => {
+  return num * 2;
+})
+
+.then(result => {
+  console.log(result);
+  
+});
