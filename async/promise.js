@@ -194,8 +194,15 @@ function checkNum(num) {
 }
 
 checkNum(5)
-  .tehn((res) => console.log(res))
+  .then((res) => console.log(res))
   .catch((err) => console.log(err));
 
 // Ex6
 
+// let p1 = Promise.resolve("HTML");
+// let p2 = Promise.resolve("CSS");
+// let p3 = Promise.resolve("JavaScript");
+
+// promise.finally([p1, p2, p3])
+// .then(values => console.log(values)
+// );
