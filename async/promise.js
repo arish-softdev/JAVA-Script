@@ -169,3 +169,6 @@ let ageCheck = new Promise((resolve, reject) => {
 ageCheck
  .then(msg => console.log(msg))
  .catch(err => console.log(err));
+
+// Ex4 
+
