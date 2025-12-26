@@ -199,10 +199,9 @@ checkNum(5)
 
 // Ex6
 
-// let p1 = Promise.resolve("HTML");
-// let p2 = Promise.resolve("CSS");
-// let p3 = Promise.resolve("JavaScript");
+let p1 = Promise.resolve("HTML");
+let p2 = Promise.resolve("CSS");
+let p3 = Promise.resolve("JavaScript");
 
-// promise.finally([p1, p2, p3])
-// .then(values => console.log(values)
-// );
+promise.all([p1, p2, p3])
+.then(values => console.log(values));
