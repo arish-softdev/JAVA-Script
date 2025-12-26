@@ -155,3 +155,17 @@ myPromise
  .then(data => console.log(data));
 
 // Ex3
+
+let ageCheck = new Promise((resolve, reject) => {
+  let age = 15;
+
+  if (age >= 18) {
+    resolve("Eligible to vote");
+  } else {
+    reject("Not eligible to vote");
+  }
+});
+
+ageCheck
+ .then(msg => console.log(msg))
+ .catch(err => console.log(err));
