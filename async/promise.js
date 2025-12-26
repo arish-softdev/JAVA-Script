@@ -130,7 +130,7 @@
 // Ex1
 
 let promise = new Promise((resolve, reject) => {
-  let success = true;
+  let success = tru;
 
   if (success) {
     resolve("Promise resolved successfully");
