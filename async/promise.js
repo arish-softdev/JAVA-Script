@@ -142,3 +142,14 @@ let promise = new Promise((resolve, reject) => {
 promise
  .then(result => console.log(result))
  .catch(error => console.log(error));
+
+//  Ex2
+
+let myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Data loaded after 2 seconds");
+  }, 2000);
+});
+
+myPromise
+ .then(data => console.log(data));
