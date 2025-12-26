@@ -140,10 +140,10 @@ let promise = new Promise((resolve, reject) => {
 });
 
 promise
- .then(result => console.log(result))
- .catch(error => console.log(error));
+  .then((result) => console.log(result))
+  .catch((error) => console.log(error));
 
- //  Ex2
+//  Ex2
 
 let myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -151,8 +151,7 @@ let myPromise = new Promise((resolve, reject) => {
   }, 2000);
 });
 
-myPromise
- .then(data => console.log(data));
+myPromise.then((data) => console.log(data));
 
 // Ex3
 
@@ -166,21 +165,18 @@ let ageCheck = new Promise((resolve, reject) => {
   }
 });
 
-ageCheck
- .then(msg => console.log(msg))
- .catch(err => console.log(err));
+ageCheck.then((msg) => console.log(msg)).catch((err) => console.log(err));
 
-// Ex4 
+// Ex4
 
 new Promise((resolve) => {
   resolve(10);
 })
 
-.then(num => {
-  return num * 2;
-})
+  .then((num) => {
+    return num * 2;
+  })
 
-.then(result => {
-  console.log(result);
-  
-});
+  .then((result) => {
+    console.log(result);
+  });
