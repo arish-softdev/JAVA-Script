@@ -182,3 +182,17 @@ new Promise((resolve) => {
   });
 
 // Ex5
+
+function checkNum(num) {
+  return new Promise((resolve, reject) => {
+    if (num > 0) {
+      resolve("Positive number");
+    } else {
+      reject("Negative number");
+    }
+  });
+}
+
+checkNum(5)
+  .tehn((res) => console.log(res))
+  .catch((err) => console.log(err));
