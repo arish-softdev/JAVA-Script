@@ -86,43 +86,59 @@
 
 // Ex8
 
-function getData() {
-  return new Promise((resolve, reject) => {
-    let dataAvailable = false;
+// function getData() {
+//   return new Promise((resolve, reject) => {
+//     let dataAvailable = false;
 
-    if (dataAvailable) {
-      resolve("Here is your data");
-    } else {
-      reject("No data found");
-    }
-  });
-}
+//     if (dataAvailable) {
+//       resolve("Here is your data");
+//     } else {
+//       reject("No data found");
+//     }
+//   });
+// }
 
-getData()
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// getData()
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Ex9
 
-let p1 = Promise.resolve(10);
-let p2 = Promise.resolve(20);
-let p3 = Promise.resolve(30);
+// let p1 = Promise.resolve(10);
+// let p2 = Promise.resolve(20);
+// let p3 = Promise.resolve(30);
 
-Promise.all([p1, p2, p3]).then((values) => console.log(values));
+// Promise.all([p1, p2, p3]).then((values) => console.log(values));
 
 // Ex10
 
-function fetchData() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("Fetched Data");
-    }, 1000);
-  });
-}
+// function fetchData() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("Fetched Data");
+//     }, 1000);
+//   });
+// }
 
-async function showData() {
-  let result = await fetchData();
-  console.log(result);
-}
+// async function showData() {
+//   let result = await fetchData();
+//   console.log(result);
+// }
 
-showData();
+// showData();
+
+// Ex1
+
+let promise = new Promise((resolve, reject) => {
+  let success = true;
+
+  if (success) {
+    resolve("Promise resolved successfully");
+  } else {
+    reject("Promise rejected");
+  }
+});
+
+promise
+ .then(result => console.log(result))
+ .catch(error => console.log(error));
