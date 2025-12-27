@@ -20,9 +20,9 @@ button {
   padding: 15px;
   border: none;
   outline: none;
-  background-color: #0652dd;
+  background-color: rgb(201, 45, 76);
   color: #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   font-size: 17px;
   font-weight: 500;
 }
