@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 8px 15px;
+  background: rgb(255, 0, 183);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
