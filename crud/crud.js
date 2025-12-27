@@ -7,7 +7,7 @@ function generator() {
       return response.json();
     })
     .then((data) => {
-      document.querySelector("#randomimage").src = data.message;
+      document.querySelector("#ri").src = data.message;
     })
     .catch((error) => {
       console.log("error fetching image:", error);
