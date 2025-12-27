@@ -9,7 +9,7 @@ function generator() {
     .then((data) => {
       document.querySelector("#ri").src = data.message;
     })
-    .catch((error) => {
-      console.log("error fetching image:", error);
+    .catch((err) => {
+      console.log("error fetching image:", err);
     });
 }
